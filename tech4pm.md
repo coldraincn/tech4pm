@@ -21,13 +21,15 @@
 ## 架构
 * 分布式
 * 授权认证
-    + 授权（权限）
-        1. ALC 访问控制列表，是前几年盛行的一种权限设计，它的核心在于用户直接和权限挂钩。
-        2. rbac
+    + 权限
+        1. ALC  访问控制列表，是前几年盛行的一种权限设计，它的核心在于用户直接和权限挂钩。
+        2. rbac  
         RBAC（Role-Based Access Control ）基于角色的访问控制。  
         RBAC认为权限的过程可以抽象概括为：判断【Who是否可以对What进行How的访问操作（Operator）】这个逻辑表达式的值是否为True的求解过程.即将权限问题转换为Who、What、How的问题。who、what、how构成了访问权限三元组。
-    + 认证
+    + 授权authorization
         1. Oauth2.0
+    + 认证authentication
+        1. 双因素认证2fa
     + 单点登录（sso）
     + http状态码含义
 ## 数据库(sql)
